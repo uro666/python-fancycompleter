@@ -13,7 +13,10 @@ BuildArch:	noarch
 
 BuildRequires:	python
 BuildRequires:	pkgconfig(python3)
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(pyrepl)
+BuildRequires:	python%{pyver}dist(setupmeta)
+
 
 %description
 Colorful TAB completion for Python prompt.
